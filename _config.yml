@@ -1,14 +1,21 @@
 ###########
 # site.url, site.title
 
-url:   'http://planetjekyll.github.io/jekyll-bootstrap-theme'
-title: 'Jekyll Bootstrap Theme'
+url:   'http://stabbycykel.github.io'
+title: 'Stabby Cykelverkstad'
+google_analytics: 'UA-60538504-1'
 
 
 ########
 # more settings
 
-markdown: kramdown
+# markdown: redcarpet
+# highlighter: pygments
+# redcarpet:
+#   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
+
+markdown: redcarpet
+pygments: true
 
 sass:
   sass_dir: css
@@ -22,4 +29,3 @@ exclude:
 
 safe: true
 lsi: false
-
